@@ -103,12 +103,6 @@ For example:
 BPC Bookmarks
 │
 ├── 🇺🇸 USA
-│   ├── Major Newspapers
-│   ├── Business & Finance
-│   ├── Tech & Science
-│   ├── News Networks
-│   └── Other Major Sites
-│
 ├── 🇬🇧 United Kingdom
 ├── 🇫🇷 France
 ├── 🇩🇪 Germany
