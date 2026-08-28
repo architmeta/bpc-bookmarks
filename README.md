@@ -13,7 +13,7 @@ A categorized bookmark collection for websites supported by the **Bypass Paywall
 
 The BPC ecosystem covers a large number of newspapers, magazines, specialist publications and other websites across different countries and languages.
 
-The filter-list project itself notes that the filter list does **not support as many sites as the full Bypass Paywalls Clean extension**, and that some supported sites require additional userscripts. :contentReference[oaicite:1]{index=1}
+The filter-list project itself notes that the filter list does **not support as many sites as the full Bypass Paywalls Clean extension**, and that some supported sites require additional userscripts.
 
 For current information about supported sites, filters and userscripts, always refer to the [original Bypass Paywalls Clean project](https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters).
 
