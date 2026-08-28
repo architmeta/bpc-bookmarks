@@ -57,37 +57,37 @@ Then import the HTML file using your browser's bookmark manager.
 
 **[→ Brave: Import or export browsing data](https://support.brave.com/hc/en-us/articles/360019782291-How-do-I-import-or-export-browsing-data)**
 
-Brave supports importing bookmarks from an HTML file. On desktop, open **Bookmarks → Bookmarks Manager → More options → Import**. :contentReference[oaicite:0]{index=0}
+Brave supports importing bookmarks from an HTML file. On desktop, open **Bookmarks → Bookmarks Manager → More options → Import**.
 
 #### Chrome
 
 **[→ Chrome: Import bookmarks and settings](https://support.google.com/chrome/answer/96816)**
 
-Open **Bookmarks and lists → Import bookmarks and settings → Choose file**, then select `BPC-Bookmarks.html`. :contentReference[oaicite:1]{index=1}
+Open **Bookmarks and lists → Import bookmarks and settings → Choose file**, then select `BPC-Bookmarks.html`. 
 
 #### Firefox
 
 **[→ Firefox: Import bookmarks from an HTML file](https://support.mozilla.org/en-US/kb/import-bookmarks-html-file)**
 
-Open the Bookmarks Library and select **Import and Backup → Import Bookmarks from HTML**, then select the file. :contentReference[oaicite:2]{index=2}
+Open the Bookmarks Library and select **Import and Backup → Import Bookmarks from HTML**, then select the file.
 
 #### Safari
 
 **[→ Apple: Import bookmarks into Safari](https://support.apple.com/en-gb/guide/safari/ibrw1015/mac)**
 
-Safari on Mac can import bookmarks from HTML files exported by browsers such as Chrome, Firefox and Edge. :contentReference[oaicite:3]{index=3}
+Safari on Mac can import bookmarks from an HTML file exported by browsers such as Chrome, Firefox, and Edge. I’ve also managed to get BPC working on **iOS** by pairing [AdGuard](https://adguard.com/) with [Userscripts](https://apps.apple.com/app/userscripts/id1463298887), but the experience is more limited. **For the best experience, I recommend using Bypass Paywalls Clean on a desktop or laptop, preferably with a Chromium-based browser.**
 
 #### Microsoft Edge
 
 **[→ Microsoft: Import favorites and passwords in Edge](https://support.microsoft.com/en-us/edge/import-your-favorites-and-passwords-in-microsoft-edge)**
 
-Go to **Settings → Profiles → Import browser data → Import browser data now**, then choose **Favorites or bookmarks HTML file**. :contentReference[oaicite:4]{index=4}
+Go to **Settings → Profiles → Import browser data → Import browser data now**, then choose **Favorites or bookmarks HTML file**.
 
 #### Arc
 
 **[→ Arc: Import bookmarks, logins, history & extensions](https://resources.arc.net/hc/en-us/articles/19335089616791-Import-Bookmarks-Logins-History-Extensions-from-Your-Previous-Browser)**
 
-Arc supports importing bookmarks from browsers including Chrome, Safari, Firefox, Brave and Edge. Go to **Arc → Import from Another Browser** and follow the prompts. :contentReference[oaicite:5]{index=5}
+Arc supports importing bookmarks from browsers including Chrome, Safari, Firefox, Brave and Edge. Go to **Arc → Import from Another Browser** and follow the prompts. 
 
 > **Note:** Arc's official documentation describes importing from another browser rather than directly importing an arbitrary HTML bookmark file. If you want to use this collection in Arc, importing the HTML into a supported browser first and then importing that browser's bookmarks into Arc may be the easiest route.
 
