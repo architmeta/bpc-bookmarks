@@ -1,129 +1,82 @@
-# BPC Bookmarks
+# Bypass Paywalls Clean — Bookmarks
 
-> A curated bookmark list for websites in the **Bypass Paywalls Clean** ecosystem.
+A categorized bookmark collection for websites supported by the **Bypass Paywalls Clean** ecosystem.
 
-I made this bookmark collection as a convenient way to keep track of publications and websites that can be accessed using the [Bypass Paywalls Clean](https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters) ecosystem.
-
-Instead of maintaining a long list of websites manually, you can import the included HTML file directly into your browser and browse the sites from organized bookmark folders.
-
-## What's included
-
-`BPC-Bookmarks.html` contains **400+ websites**, organized into country, region, and publication categories.
-
-The collection includes:
-
-* Major newspapers
-* Magazines
-* Business & financial publications
-* Technology & science publications
-* News networks
-* Regional newspapers
-* International publications
-* Specialist and trade publications
-* Other subscription-based websites
-
-The bookmark file uses the standard **Netscape HTML bookmark format**, making it compatible with most major browsers.
-
-## Import the bookmarks
-
-### Brave
-
-1. Download [`BPC-Bookmarks.html`](./BPC-Bookmarks.html).
-2. Open **Brave → Bookmarks → Bookmark Manager**.
-3. Open the menu in the Bookmark Manager.
-4. Select **Import Bookmarks**.
-5. Select `BPC-Bookmarks.html`.
-
-The bookmarks will be imported as folders, preserving the organization of the collection.
-
-### Chrome / Chromium browsers
-
-The same HTML file can be imported through the browser's bookmark manager.
-
-### Firefox
-
-Open **Bookmarks → Manage Bookmarks → Import and Backup → Import Bookmarks from HTML** and select the file.
-
-## Important
-
-This repository is **only a bookmark collection**.
-
-It does **not** contain, modify, or redistribute the Bypass Paywalls Clean extension or its filter lists.
-
-Whether a particular website works depends on the current state of the upstream Bypass Paywalls Clean project, the browser being used, the configured filters/userscripts, and changes made by the website itself.
-
-Websites can change their paywall implementations at any time, so inclusion in this bookmark list should **not** be interpreted as a guarantee that a site currently works.
-
-## Brave users
-
-I originally put this collection together for use with **Brave**, where the Bypass Paywalls Clean filter list is incorporated into Brave's built-in blocking system.
-
-However, the upstream BPC project notes that Brave's implementation does not include userscripts and that some filter rules may not work or may be disabled in Brave's built-in blocker.
-
-For the most complete compatibility, consult the upstream project's documentation.
-
-## Upstream project
-
-This project is **not affiliated with or endorsed by** the Bypass Paywalls Clean developers.
-
-The bookmark list is based on the websites and ecosystem surrounding the original project.
-
-### Bypass Paywalls Clean Filters
-
-**Original project:**
-https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
-
-Please refer to the upstream repository for:
-
-* Current filter lists
-* Supported sites
-* Userscripts
-* Installation instructions
-* Compatibility information
-* Project updates
-
-### Credit
-
-All credit for the underlying Bypass Paywalls Clean project, filters, fixes and userscripts belongs to its original developers and contributors.
-
-This repository only provides a **convenient bookmark index**.
-
-## Updating the list
-
-The bookmark collection may fall out of date as websites change and the upstream project evolves.
-
-If you notice:
-
-* A missing publication
-* A broken or incorrect URL
-* A duplicate
-* An outdated category
-* A website that has permanently disappeared
-
-feel free to open an **Issue** or submit a **Pull Request**.
-
-## Disclaimer
-
-This project does not provide subscriptions, accounts, credentials, private information, or copies of articles.
-
-It is simply a collection of links to publicly accessible websites.
-
-Please respect applicable laws, copyright, website terms of service, and publishers' subscription policies.
-
-If you regularly read a publication and find its journalism valuable, consider subscribing to support it.
-
-## Credits
-
-**Original Bypass Paywalls Clean project:**
-[magnolia1234/bypass-paywalls-clean-filters](https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters)
-
-**Bookmark collection:**
-[Archit Mehta](https://github.com/)
+> **This is not a fork, extension, or replacement for Bypass Paywalls Clean.**
+> It is a usability layer that makes the large number of websites in the BPC ecosystem easier to discover and navigate.
 
 ---
 
-### ⭐ If this bookmark collection is useful to you
+## What is Bypass Paywalls Clean?
 
-Star the repository, report outdated links, and help keep the collection organized.
+[Bypass Paywalls Clean](https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters) is a project that provides filters and userscripts for websites that implement paywalls.
 
-Most importantly, support the original **Bypass Paywalls Clean** project and the publications whose work you value.
+The BPC ecosystem covers a large number of newspapers, magazines, specialist publications and other websites across different countries and languages.
+
+The filter-list project itself notes that the filter list does **not support as many sites as the full Bypass Paywalls Clean extension**, and that some supported sites require additional userscripts. :contentReference[oaicite:1]{index=1}
+
+For current information about supported sites, filters and userscripts, always refer to the [original Bypass Paywalls Clean project](https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters).
+
+---
+
+## The problem
+
+The sheer number of websites supported by Bypass Paywalls Clean is one of the best things about the project.
+
+But it also creates a usability problem:
+
+**How do you actually find them?**
+
+If you already know that a particular publication is supported, there is no problem — you visit the publication.
+
+But if you are a journalist, researcher, student, or simply someone who reads publications from different countries, discovering what is available is much less intuitive.
+
+The information surrounding BPC is primarily organized around:
+
+- filter lists
+- userscripts
+- technical fixes
+- domains
+- implementation details
+
+That makes sense for maintaining the project, but it isn't necessarily the easiest way for a reader to answer:
+
+> **"What publications can I try?"**
+
+I wanted a simple solution to that problem.
+
+---
+
+## The solution: bookmarks
+
+The solution is deliberately simple:
+
+**Bookmarks.**
+
+This repository contains a browser-importable HTML bookmark file containing **400+ websites** associated with the Bypass Paywalls Clean ecosystem.
+
+Rather than presenting the sites as one enormous list, the bookmarks are organized primarily by **region and country**, with additional categories for different types of publications.
+
+For example:
+
+```text
+BPC Bookmarks
+│
+├── 🇺🇸 USA
+│   ├── Major Newspapers
+│   ├── Business & Finance
+│   ├── Tech & Science
+│   ├── News Networks
+│   └── Other Major Sites
+│
+├── 🇬🇧 United Kingdom
+├── 🇫🇷 France
+├── 🇩🇪 Germany
+├── 🇨🇭 Switzerland
+├── 🇮🇳 India
+├── 🇨🇦 Canada
+├── 🇦🇺 Australia / New Zealand
+├── 🇯🇵 Japan
+├── 🌎 Latin America
+├── 🌏 Asia
+└── 📰 Other Sites
