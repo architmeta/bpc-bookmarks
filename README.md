@@ -21,41 +21,81 @@ For current information about supported sites, filters and userscripts, always r
 
 ## The problem
 
-The sheer number of websites supported by Bypass Paywalls Clean is one of the best things about the project.
-
-But it also creates a usability problem:
-
-**How do you actually find them?**
-
-If you already know that a particular publication is supported, there is no problem — you visit the publication.
-
-But if you are a journalist, researcher, student, or simply someone who reads publications from different countries, discovering what is available is much less intuitive.
-
-The information surrounding BPC is primarily organized around:
-
-- filter lists
-- userscripts
-- technical fixes
-- domains
-- implementation details
-
-That makes sense for maintaining the project, but it isn't necessarily the easiest way for a reader to answer:
-
-> **"What publications can I try?"**
-
-I wanted a simple solution to that problem.
+The sheer number of websites supported by Bypass Paywalls Clean is one of the best things about the project. But it also creates a usability problem. How is one supppose to track which websites are supported?
 
 ---
 
 ## The solution: bookmarks
 
-The solution is deliberately simple:
-
-**Bookmarks.**
-
 This repository contains a browser-importable HTML bookmark file containing **400+ websites** associated with the Bypass Paywalls Clean ecosystem.
 
-Rather than presenting the sites as one enormous list, the bookmarks are organized primarily by **region and country**, with additional categories for different types of publications.
+Rather than presenting these websites as one enormous list, I organized them into folders based primarily on **region and country**, with additional categories for different types of publications.
+
+The idea is simple:
+
+**Install Bypass Paywalls Clean → import these bookmarks → browse and discover publications.**
+
+### Step 1 — Install Bypass Paywalls Clean
+
+First, install and configure **[Bypass Paywalls Clean](https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters)** in your browser.
+
+Follow the installation instructions provided by the upstream project:
+
+**[→ Bypass Paywalls Clean installation instructions](https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters)**
+
+> **Important:** This repository does not contain the BPC extension, filters, or userscripts. It only provides the bookmark collection.
+
+### Step 2 — Import the bookmarks
+
+Download **[`BPC-Bookmarks.html`](./BPC-Bookmarks.html)** from this repository.
+
+You can either import it as-is or **edit the HTML file first** if you want to remove publications, add your own websites, or reorganize the categories.
+
+Then import the HTML file using your browser's bookmark manager.
+
+#### Brave
+
+**[→ Brave: Import or export browsing data](https://support.brave.com/hc/en-us/articles/360019782291-How-do-I-import-or-export-browsing-data)**
+
+Brave supports importing bookmarks from an HTML file. On desktop, open **Bookmarks → Bookmarks Manager → More options → Import**. :contentReference[oaicite:0]{index=0}
+
+#### Chrome
+
+**[→ Chrome: Import bookmarks and settings](https://support.google.com/chrome/answer/96816)**
+
+Open **Bookmarks and lists → Import bookmarks and settings → Choose file**, then select `BPC-Bookmarks.html`. :contentReference[oaicite:1]{index=1}
+
+#### Firefox
+
+**[→ Firefox: Import bookmarks from an HTML file](https://support.mozilla.org/en-US/kb/import-bookmarks-html-file)**
+
+Open the Bookmarks Library and select **Import and Backup → Import Bookmarks from HTML**, then select the file. :contentReference[oaicite:2]{index=2}
+
+#### Safari
+
+**[→ Apple: Import bookmarks into Safari](https://support.apple.com/en-gb/guide/safari/ibrw1015/mac)**
+
+Safari on Mac can import bookmarks from HTML files exported by browsers such as Chrome, Firefox and Edge. :contentReference[oaicite:3]{index=3}
+
+#### Microsoft Edge
+
+**[→ Microsoft: Import favorites and passwords in Edge](https://support.microsoft.com/en-us/edge/import-your-favorites-and-passwords-in-microsoft-edge)**
+
+Go to **Settings → Profiles → Import browser data → Import browser data now**, then choose **Favorites or bookmarks HTML file**. :contentReference[oaicite:4]{index=4}
+
+#### Arc
+
+**[→ Arc: Import bookmarks, logins, history & extensions](https://resources.arc.net/hc/en-us/articles/19335089616791-Import-Bookmarks-Logins-History-Extensions-from-Your-Previous-Browser)**
+
+Arc supports importing bookmarks from browsers including Chrome, Safari, Firefox, Brave and Edge. Go to **Arc → Import from Another Browser** and follow the prompts. :contentReference[oaicite:5]{index=5}
+
+> **Note:** Arc's official documentation describes importing from another browser rather than directly importing an arbitrary HTML bookmark file. If you want to use this collection in Arc, importing the HTML into a supported browser first and then importing that browser's bookmarks into Arc may be the easiest route.
+
+### That's it
+
+Once Bypass Paywalls Clean is installed and the bookmarks are imported, you can browse the collection from your browser and discover publications by country or region.
+
+**You don't need to manually add the 400+ websites one by one.**
 
 For example:
 
