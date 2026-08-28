@@ -101,16 +101,9 @@ For example:
 
 ```text
 BPC Bookmarks
-│
 ├── 🇺🇸 USA
-├── 🇬🇧 United Kingdom
-├── 🇫🇷 France
-├── 🇩🇪 Germany
-├── 🇨🇭 Switzerland
-├── 🇮🇳 India
+├── 🇪🇺 Europe
 ├── 🇨🇦 Canada
-├── 🇦🇺 Australia / New Zealand
-├── 🇯🇵 Japan
-├── 🌎 Latin America
+├── 🌎 South America
 ├── 🌏 Asia
 └── 📰 Other Sites
